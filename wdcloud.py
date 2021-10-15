@@ -20,10 +20,14 @@ for line in file.readlines():
 jieba.set_dictionary('2021-10-12 dict.txt.big.txt')
 jieba.add_word('柯文哲')
 jieba.add_word('陳時中')
+jieba.add_word('張亞中')
 jieba.add_word('朱立倫')
 jieba.add_word('國民黨')
+jieba.add_word('民眾黨')
 jieba.add_word('民進黨')
 jieba.add_word('台灣')
+jieba.add_word('高端')
+jieba.add_word('塔綠班')
 #wordlist = jieba.cut(papers)
 #words = " ".join(wordlist)
 #print(words)
@@ -48,3 +52,5 @@ plt.axis("off")
 plt.show()
 #存檔
 my_wordcloud.to_file('word_cloud.png')
+
+######articut好像更好，但弄不出來，討厭
