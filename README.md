@@ -12,6 +12,11 @@ PPT爬蟲寫成文字雲
     :繁體中文字體，隨便找的
 ### word_cloud.png
     :輸出的圖片，來沒弄成網頁，好麻煩
+    
+### 2021/10/19 update
+    :多用了ptt.txt，但變超醜，不知道為啥
+### ptt.txt
+    : udicOpenData.dictionary裡的字典，但跑出來好醜，發瘋
 
 
 ###### P.S我找到類似自然生成的系統artificut，感覺比較好用
